@@ -18,7 +18,7 @@ def load_doc(filename):
 def load_set(filename):
     doc = load_doc(filename)
     dataset = list()
-    
+    print(dataset)
     for line in doc.split('\n'):
         if len(line)<1:
             continue
